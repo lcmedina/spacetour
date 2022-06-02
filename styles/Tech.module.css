@@ -1,5 +1,5 @@
 .container {
-    background: url(../assets/techbg/background-technology-desktop.jpg);
-    height: 100vh;
-    width: 100vw;
+    background: url(../public/assets/techbg/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }

@@ -1,9 +1,8 @@
-import Image from "next/image";
-import logo from "../public/assets/logo.svg"
 import Link from "next/link";
 
 function Nav() {
     return ( 
+        <div className="container">
         <div className="nav">
             <img
                 src="/assets/logo.svg"
@@ -14,19 +13,28 @@ function Nav() {
             <div className="navbg">
                 <div className="navlinks">
                     <Link href="/">
-                        <a className="nav-home"><b>00</b> HOME</a>
+                        <span className="nav-home">
+                            <a><b>00</b> HOME</a>
+                        </span>
                     </Link>
                     <Link href="/destination">
-                        <a className="nav-dest"><b>01</b> DESTINATION</a>
+                        <span className="nav-dest">
+                            <a><b>01</b> DESTINATION</a>
+                        </span>
                     </Link>
                     <Link href="/crew">
-                        <a className="nav-crew"><b>02</b> CREW</a>
+                        <span className="nav-crew">
+                            <a><b>02</b> CREW</a>
+                        </span>
                     </Link>
                     <Link href="/technology">
-                        <a className="nav-tech"><b>03</b> TECHNOLOGY</a>
+                        <span className="nav-tech">
+                            <a><b>03</b> TECHNOLOGY</a>
+                        </span>
                     </Link>
                 </div>
             </div>
+        </div>
         </div>
      );
 }

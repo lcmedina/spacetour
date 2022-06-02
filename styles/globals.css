@@ -8,18 +8,33 @@ a {
   text-decoration: none; 
   color: inherit;
 }
+.nav-tech, .nav-crew, .nav-dest, .nav-home {
+   height: 96px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.nav-home:hover, .nav-crew:hover, .nav-dest:hover, .nav-tech:hover {
+  border-bottom: 3px solid rgb(255, 255, 255, 0.5);
+} 
+.nav-home:active, .nav-crew:active, .nav-dest:active, .nav-tech:active {
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 .nav {
   position: absolute;
-width: 1385px;
-height: 96px;
-left: 55px;
-top: 40px;
+  width: 96.2%;
+  height: 96px;
 }
 .navbg {
 position: absolute;
 width: 56%;
 height: 96px;
-left: 610px;
+left: 44%;
 top: 40px;
 background: rgba(255, 255, 255, 0.04);
 backdrop-filter: blur(81.5485px);
@@ -28,7 +43,7 @@ backdrop-filter: blur(81.5485px);
   position: absolute;
 width: 473px;
 height: 1px;
-left: 167px;
+left: 19%;
 top: 88px;
 background: #FFFFFF;
 mix-blend-mode: normal;
@@ -36,7 +51,7 @@ opacity: 0.25;
 }
 .logo {
   position: absolute;
-  left: 55px;
+  left: 15%;
   top: 64px;
   height: 48px;
   width: 48px;

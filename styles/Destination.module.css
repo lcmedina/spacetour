@@ -1,5 +1,5 @@
 .container {
-    background: url(../assets/destbg/background-destination-desktop.jpg);
-    height: 100vh;
-    width: 100vw;
+    background: url(../public/assets/destbg/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
